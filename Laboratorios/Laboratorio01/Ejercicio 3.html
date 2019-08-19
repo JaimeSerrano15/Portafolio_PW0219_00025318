@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <hr> 
+    <h1> Fake E-mail sign up</h1>
+    <form>
+    <fieldset>
+        <legend>
+            Personal Information: 
+        </legend>
+        <label for="name"> Names: </label>
+        <input type="text" name="name" placeholder="Jaime">
+        <input type="text" name="name" placeholder="Orlando">
+        <br>
+        <label for="ls"> Last Names: </label>
+        <input type="text" name="ls" placeholder="Serrano">
+        <input type="text" name="ls" placeholder="Rivas">
+        <br>
+        <label for="fecha"> Birthday: </label>
+        <input type="date" name="fecha">
+        <br>
+        <label for="gen"> Gender: </label>
+        <input type="radio" name="gen" value="F"> F
+        <input type="radio" name="gen" value="M"> M
+        <input type="radio" name="gen" value="Other"> Other:
+        <input type="text" name="gen">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Sign Up Information: 
+        </legend>
+        <label for="email">E-mail: </label>
+        <input type="email" placeholder="abcdef@gmail.com" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" required>
+        <br>
+        <label for="verify">Verify Password</label>
+        <input type="password" name="verify" placeholder="password" required>
+    </fieldset>
+    <input type="submit" name="submitbtn" value="Send">
+    <input type="reset" name="resetbtn" value="Reset fields">
+    </form>
+</body>
+</html>
