@@ -11,7 +11,7 @@
 <body bgcolor="#ccccff">
     <header>
         <div>
-            <h1 style="font-family:'Franklin Gothic Medium'" align="center">ABOUT ME</h1>
+            <h1 id="ini" style="font-family:'Franklin Gothic Medium'" align="center">ABOUT ME</h1>
             <div align="center"><img src="Images/jaime" alt="Perfil" width="200" border="2"></div>
             <h2 align="center">Curriculum Vitae</h2>
             <hr>
@@ -58,10 +58,11 @@
                     hacer todo lo que esté a mi alcance y sea necesario para poder ayudar a mis amigos y/o familiares, a
                     su vez, de tener muchas ganas de aprender lo más que pueda durante el desarrollo de mi carrera, y
                     seguir aprendiendo habiendo finalizado la misma.</p>
-                    <img src="Images/info.jpg" border="5" width="350">
+                <img src="Images/info.jpg" border="5" width="350">
             </div>
         </section>
-        <hr><hr>
+        <hr>
+        <hr>
         <section>
             <h3 id="hyc" style="font-size: 150%">Habilidades y Conocimientos</h3>
             <div>
@@ -75,7 +76,8 @@
                     <li>Compromiso con el trabajo</li>
                 </ul>
             </div>
-            <div align="center"><img src="Images/habilidad.png" width="300" border="2">&nbsp;&nbsp;<img src="Images/conocimiento.png" width="300" border="2"></div>
+            <div align="center"><img src="Images/habilidad.png" width="300" border="2">&nbsp;&nbsp;<img
+                    src="Images/conocimiento.png" width="300" border="2"></div>
             <div>
                 <p><mark>Conocimientos</mark></p>
                 <ul>
@@ -88,13 +90,34 @@
                 </ul>
             </div>
         </section>
-        <hr><hr>
+        <hr>
+        <hr>
         <section>
             <h3 id="com" style="font-size: 150%">Contacto</h3>
+            <div align="center">
+                <p>A continuación, se presenta un espacio con el cual es posible comunicarse con el desarrollador de
+                    esta página Web, Jaime Serrano. Se le solicita su nombre y apellido, así como su correo electrónico
+                    y el cuerpo y/o mensaje del email a mandar. Se le agradece el llenar todos los campos necesarios.
+                </p>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Contacte con nosotros</legend>
+                        <label for="n1">Nombre: </label> <input type="text" id="n1" required placeholder="Jaime">
+                        <label for="a1">Apellido: </label><input type="text" id="a1" required placeholder="Serrano"> 
+                        <br><br><label for="e1">Correo electrónico: </label><input type="email" id="e1" required placeholder="abcdef@gmail.com">
+                        <br><br><label for="t1">Mensaje: </label>
+                        <br><textarea id="t1" name="textArea" cols="100" rows="15" required></textarea> <input type="submit" name="subBtn" value="Send"> <input type="reset" name="resBtn" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
         </section>
     </main>
+    <hr><hr>
     <footer>
-
+        <div align="center"><p><a href="#ini">Ir Arriba</a></p></div>
+        <div align="center"><p><i>"Adonde quiera que vayas, ve con todo tu corazón" - Confucio</i></p></div>
     </footer>
 </body>
 
