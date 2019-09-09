@@ -1,0 +1,33 @@
+/*Barra de Navegación*/
+
+nav{
+
+    @include set-dimension(auto,auto);
+
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.btn{
+    color: white;
+
+    margin: 0.5em;
+    padding: 0.8em;
+
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 1px $color-1;
+}
+
+.source{
+    background: $color-2;
+}
+
+.site{
+    background: $color-3;
+}
+
+.faq{
+    background: $color-4;
+}
