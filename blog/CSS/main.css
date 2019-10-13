@@ -1,0 +1,55 @@
+::before::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vh);
+}
+
+body{
+    background-color: #ffdd99;
+}
+
+span{
+    background-color: #4da6ff;
+    width: 50px;
+    border-radius: 20%;
+    border: solid 5px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    margin: 2em;
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: solid;
+    background-color:	#4dffa6;
+}
+
+.cap{
+    display: flex;
+    justify-content: center;
+}
+
+.journal{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.off{
+    display: none;
+}
