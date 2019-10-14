@@ -9,7 +9,7 @@ body{
     background-color: #ffdd99;
 }
 
-span{
+a{
     background-color: #4da6ff;
     width: 50px;
     border-radius: 20%;
@@ -75,3 +75,5 @@ div{
 .off{
     display: none;
 }
+
+
