@@ -9,6 +9,6 @@ window.onload = function(){
             var on = item.id;
             var arton = document.querySelector(".art." + on);
             arton.classList.toggle("off");
-        })
+        });
     });
 };

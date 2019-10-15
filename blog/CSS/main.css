@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
 ::before::after {
     margin: 0;
     padding: 0;
@@ -24,11 +27,13 @@ a{
 }
 
 .head h1{
+    font-family: 'Acme', sans-serif;
     grid-column: 1;
     grid-row: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 50px;   
 }
 
 .head p{
@@ -43,6 +48,8 @@ a{
 .head img{
     grid-column: 2;
     grid-row: 1/3;
+    border: black solid;
+    border-radius: 10%;
 }
 
 .menu{
@@ -76,4 +83,17 @@ div{
     display: none;
 }
 
+article p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article img{
+    border: solid 5px black;
+    border-radius: 10%;
+    box-shadow: #3333ff 5px 5px;
+}
+
+article h2{
+    font-family: 'Righteous', cursive;
+}
 
