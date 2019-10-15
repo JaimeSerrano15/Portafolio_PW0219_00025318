@@ -7,7 +7,7 @@ window.onload = function(){
                 item.classList.add("off");
             });
             var on = item.id;
-            var arton = document.querySelector(".art." + on);
+            var arton = document.querySelector("#"+on+".art");
             arton.classList.toggle("off");
         });
     });
